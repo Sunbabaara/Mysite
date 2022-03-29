@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 15px;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    color: teal;
+}
+section{
+    height: 70vh;
+}
+footer{
+    background-color: rgb(157, 199, 241);
+    height: 30vh;
+    text-align: center;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    padding: 50px;
+}
